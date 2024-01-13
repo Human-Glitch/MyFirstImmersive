@@ -11,8 +11,8 @@ import SwiftUI
 struct MyFirstImmersiveApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }.windowStyle(.volumetric)
+            OuterSpaceView()
+		}.windowStyle(.volumetric)
 
         ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()

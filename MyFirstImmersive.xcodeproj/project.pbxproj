@@ -14,6 +14,7 @@
 		E7ADA99A2B51F4280043F2CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7ADA9992B51F4280043F2CA /* Assets.xcassets */; };
 		E7ADA99D2B51F4280043F2CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7ADA99C2B51F4280043F2CA /* Preview Assets.xcassets */; };
 		E7ADA9A82B51F4280043F2CA /* MyFirstImmersiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ADA9A72B51F4280043F2CA /* MyFirstImmersiveTests.swift */; };
+		E7ADA9B22B52353B0043F2CA /* OuterSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ADA9B12B52353B0043F2CA /* OuterSpaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		E7ADA99E2B51F4280043F2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7ADA9A32B51F4280043F2CA /* MyFirstImmersiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstImmersiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7ADA9A72B51F4280043F2CA /* MyFirstImmersiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstImmersiveTests.swift; sourceTree = "<group>"; };
+		E7ADA9B12B52353B0043F2CA /* OuterSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuterSpaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E7ADA9932B51F4270043F2CA /* MyFirstImmersiveApp.swift */,
 				E7ADA9952B51F4270043F2CA /* ContentView.swift */,
 				E7ADA9972B51F4270043F2CA /* ImmersiveView.swift */,
+				E7ADA9B12B52353B0043F2CA /* OuterSpaceView.swift */,
 				E7ADA9992B51F4280043F2CA /* Assets.xcassets */,
 				E7ADA99E2B51F4280043F2CA /* Info.plist */,
 				E7ADA99B2B51F4280043F2CA /* Preview Content */,
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7ADA9962B51F4270043F2CA /* ContentView.swift in Sources */,
+				E7ADA9B22B52353B0043F2CA /* OuterSpaceView.swift in Sources */,
 				E7ADA9942B51F4270043F2CA /* MyFirstImmersiveApp.swift in Sources */,
 				E7ADA9982B51F4270043F2CA /* ImmersiveView.swift in Sources */,
 			);
@@ -372,6 +376,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,6 +402,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

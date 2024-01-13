@@ -43,7 +43,7 @@ struct ContentView: View {
                 Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
                     .font(.title)
             }
-            .frame(width: 360)
+            .frame(width: 400)
             .padding(36)
             .glassBackgroundEffect()
 
