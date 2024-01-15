@@ -16,7 +16,7 @@ struct ImmersiveToggle: View {
 	var body: some View {
 		Toggle("Immersive View", isOn: $isOn)
 			.font(.callout)
-			.frame(width: 175, alignment: .center)
+			.frame(width: 200, alignment: .center)
 			.padding()
 			.glassBackgroundEffect()
 	}
@@ -25,51 +25,56 @@ struct ImmersiveToggle: View {
 // Main View
 struct OuterSpaceView: View {
 	@State private var isImmersiveSpaceShown = false
-
+	
 	@Environment(\.openImmersiveSpace) var openImmersiveSpace
 	@Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
 	
 	var body: some View {
-		ZStack(alignment: .top) {
+		ZStack{
 			BackgroundImageView()
-			HelloWorldView(isImmersiveSpaceShown: $isImmersiveSpaceShown)
+				
+			VStack(alignment: .center, content: {
+				HelloWorldView()
+				Spacer()
+				ImmersiveToggle(isOn: $isImmersiveSpaceShown)
+			})
+			.padding()
 		}
-		.glassBackgroundEffect()
+		.frame(width: 950, height: 550, alignment: .center)
 		.onChange(of: isImmersiveSpaceShown) { _, newValue in
 			handleImmersiveSpaceChange(isShown: newValue)
 		}
 	}
-
+	
 	private func BackgroundImageView() -> some View {
 		Image("Earth Space")
 			.resizable()
 			.aspectRatio(contentMode: .fit)
-	}
+			.cornerRadius(60)
+		}
 
-	private func HelloWorldView(isImmersiveSpaceShown: Binding<Bool>) -> some View {
-		Text("Hello World")
-			.padding(50)
-			.kerning(20)
-			.font(.extraLargeTitle)
-			.fontDesign(.monospaced)
-			.fontWeight(.ultraLight)
-			.ornament(attachmentAnchor: .scene(.bottom)) {
-				ImmersiveToggle(isOn: isImmersiveSpaceShown)
-			}
-	}
+		private func HelloWorldView() -> some View
+		{
+			Text("Hello World")
+				.padding()
+				.kerning(20)
+				.font(.extraLargeTitle)
+				.fontDesign(.monospaced)
+				.fontWeight(.ultraLight)
+		}
 
-	// Handle immersive space state change
-	private func handleImmersiveSpaceChange(isShown: Bool) {
-		Task {
-			if isShown {
-				switch await openImmersiveSpace(id: "ImmersiveSpace") {
-				case .opened:
-					isImmersiveSpaceShown = true
-				case .error, .userCancelled:
-					fallthrough
-				@unknown default:
-					isImmersiveSpaceShown = false
-				}
+		// Handle immersive space state change
+		private func handleImmersiveSpaceChange(isShown: Bool) {
+			Task {
+				if isShown {
+					switch await openImmersiveSpace(id: "ImmersiveSpace") {
+					case .opened:
+						isImmersiveSpaceShown = true
+					case .error, .userCancelled:
+						fallthrough
+					@unknown default:
+						isImmersiveSpaceShown = false
+					}
 			} else {
 				await dismissImmersiveSpace()
 				isImmersiveSpaceShown = false

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E72A5CB42B5371910089876F /* SpaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A5CB32B5371910089876F /* SpaceController.swift */; };
 		E7ADA9922B51F4270043F2CA /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = E7ADA9912B51F4270043F2CA /* RealityKitContent */; };
 		E7ADA9942B51F4270043F2CA /* MyFirstImmersiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ADA9932B51F4270043F2CA /* MyFirstImmersiveApp.swift */; };
 		E7ADA9962B51F4270043F2CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ADA9952B51F4270043F2CA /* ContentView.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E72A5CB32B5371910089876F /* SpaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceController.swift; sourceTree = "<group>"; };
 		E7ADA98C2B51F4270043F2CA /* MyFirstImmersive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstImmersive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7ADA9902B51F4270043F2CA /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		E7ADA9932B51F4270043F2CA /* MyFirstImmersiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstImmersiveApp.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				E7ADA9952B51F4270043F2CA /* ContentView.swift */,
 				E7ADA9972B51F4270043F2CA /* ImmersiveView.swift */,
 				E7ADA9B12B52353B0043F2CA /* OuterSpaceView.swift */,
+				E72A5CB32B5371910089876F /* SpaceController.swift */,
 				E7ADA9992B51F4280043F2CA /* Assets.xcassets */,
 				E7ADA99E2B51F4280043F2CA /* Info.plist */,
 				E7ADA99B2B51F4280043F2CA /* Preview Content */,
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7ADA9962B51F4270043F2CA /* ContentView.swift in Sources */,
+				E72A5CB42B5371910089876F /* SpaceController.swift in Sources */,
 				E7ADA9B22B52353B0043F2CA /* OuterSpaceView.swift in Sources */,
 				E7ADA9942B51F4270043F2CA /* MyFirstImmersiveApp.swift in Sources */,
 				E7ADA9982B51F4270043F2CA /* ImmersiveView.swift in Sources */,
