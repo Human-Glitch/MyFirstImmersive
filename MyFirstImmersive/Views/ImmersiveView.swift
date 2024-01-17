@@ -13,10 +13,13 @@ struct ImmersiveView: View {
 	var body: some View {
 		RealityView { content in
 			// Create a material with a star field on it.
-			guard let resource = try? await TextureResource(named: "Starfield") else {
-				// If the asset isn't available, something is wrong with the app.
-				fatalError("Unable to load starfield texture.")
-			}
+			guard let resource = 
+				try? await TextureResource(named: "Starfield")
+				else {
+					// If the asset isn't available, something is wrong with the app.
+					fatalError("Unable to load starfield texture.")
+				}
+			
 			var material = UnlitMaterial()
 			material.color = .init(texture: .init(resource))
 			

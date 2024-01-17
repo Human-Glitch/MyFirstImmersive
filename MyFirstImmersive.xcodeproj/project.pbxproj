@@ -14,6 +14,9 @@
 		E7ADA99D2B51F4280043F2CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7ADA99C2B51F4280043F2CA /* Preview Assets.xcassets */; };
 		E7ADA9A82B51F4280043F2CA /* MyFirstImmersiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ADA9A72B51F4280043F2CA /* MyFirstImmersiveTests.swift */; };
 		E7ADA9B22B52353B0043F2CA /* OuterSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ADA9B12B52353B0043F2CA /* OuterSpaceView.swift */; };
+		E7C79BDD2B575B8800887E7F /* ImmersiveToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C79BDC2B575B8800887E7F /* ImmersiveToggleView.swift */; };
+		E7C79BDF2B575E0500887E7F /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C79BDE2B575E0500887E7F /* BackgroundImageView.swift */; };
+		E7C79BE12B575E7A00887E7F /* HelloWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C79BE02B575E7A00887E7F /* HelloWorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 		E7ADA9A32B51F4280043F2CA /* MyFirstImmersiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstImmersiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7ADA9A72B51F4280043F2CA /* MyFirstImmersiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstImmersiveTests.swift; sourceTree = "<group>"; };
 		E7ADA9B12B52353B0043F2CA /* OuterSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuterSpaceView.swift; sourceTree = "<group>"; };
+		E7C79BDC2B575B8800887E7F /* ImmersiveToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveToggleView.swift; sourceTree = "<group>"; };
+		E7C79BDE2B575E0500887E7F /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		E7C79BE02B575E7A00887E7F /* HelloWorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +86,8 @@
 		E7ADA98E2B51F4270043F2CA /* MyFirstImmersive */ = {
 			isa = PBXGroup;
 			children = (
-				E7ADA9932B51F4270043F2CA /* MyFirstImmersiveApp.swift */,
-				E7ADA9B12B52353B0043F2CA /* OuterSpaceView.swift */,
-				E7ADA9972B51F4270043F2CA /* ImmersiveView.swift */,
+				E7C79BDB2B575B2D00887E7F /* Main */,
+				E7C79BDA2B575B1300887E7F /* Views */,
 				E7ADA9992B51F4280043F2CA /* Assets.xcassets */,
 				E7ADA99E2B51F4280043F2CA /* Info.plist */,
 				E7ADA99B2B51F4280043F2CA /* Preview Content */,
@@ -112,6 +117,26 @@
 				E7ADA9A72B51F4280043F2CA /* MyFirstImmersiveTests.swift */,
 			);
 			path = MyFirstImmersiveTests;
+			sourceTree = "<group>";
+		};
+		E7C79BDA2B575B1300887E7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7ADA9B12B52353B0043F2CA /* OuterSpaceView.swift */,
+				E7C79BDE2B575E0500887E7F /* BackgroundImageView.swift */,
+				E7C79BE02B575E7A00887E7F /* HelloWorldView.swift */,
+				E7C79BDC2B575B8800887E7F /* ImmersiveToggleView.swift */,
+				E7ADA9972B51F4270043F2CA /* ImmersiveView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E7C79BDB2B575B2D00887E7F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E7ADA9932B51F4270043F2CA /* MyFirstImmersiveApp.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,9 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C79BDF2B575E0500887E7F /* BackgroundImageView.swift in Sources */,
 				E7ADA9B22B52353B0043F2CA /* OuterSpaceView.swift in Sources */,
+				E7C79BE12B575E7A00887E7F /* HelloWorldView.swift in Sources */,
 				E7ADA9942B51F4270043F2CA /* MyFirstImmersiveApp.swift in Sources */,
 				E7ADA9982B51F4270043F2CA /* ImmersiveView.swift in Sources */,
+				E7C79BDD2B575B8800887E7F /* ImmersiveToggleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
