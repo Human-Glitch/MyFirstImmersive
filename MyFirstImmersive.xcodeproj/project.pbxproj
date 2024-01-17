@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,9 @@
 		E7C79BDD2B575B8800887E7F /* ImmersiveToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C79BDC2B575B8800887E7F /* ImmersiveToggleView.swift */; };
 		E7C79BDF2B575E0500887E7F /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C79BDE2B575E0500887E7F /* BackgroundImageView.swift */; };
 		E7C79BE12B575E7A00887E7F /* HelloWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C79BE02B575E7A00887E7F /* HelloWorldView.swift */; };
+		E7C79BF12B57840B00887E7F /* WorldAssets in Frameworks */ = {isa = PBXBuildFile; productRef = E7C79BF02B57840B00887E7F /* WorldAssets */; };
+		E7C79BF82B579BB900887E7F /* Entities+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C79BF72B579BB900887E7F /* Entities+Sunlight.swift */; };
+		E7C79BFB2B579C7700887E7F /* Sunlight.skybox in Resources */ = {isa = PBXBuildFile; fileRef = E7C79BFA2B579C7600887E7F /* Sunlight.skybox */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,8 @@
 		E7C79BDC2B575B8800887E7F /* ImmersiveToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveToggleView.swift; sourceTree = "<group>"; };
 		E7C79BDE2B575E0500887E7F /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		E7C79BE02B575E7A00887E7F /* HelloWorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldView.swift; sourceTree = "<group>"; };
+		E7C79BF72B579BB900887E7F /* Entities+Sunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entities+Sunlight.swift"; sourceTree = "<group>"; };
+		E7C79BFA2B579C7600887E7F /* Sunlight.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = Sunlight.skybox; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C79BF12B57840B00887E7F /* WorldAssets in Frameworks */,
 				E7ADA9922B51F4270043F2CA /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +92,8 @@
 		E7ADA98E2B51F4270043F2CA /* MyFirstImmersive */ = {
 			isa = PBXGroup;
 			children = (
+				E7C79BF92B579C0200887E7F /* Resources */,
+				E7C79BF62B579B7600887E7F /* Entities */,
 				E7C79BDB2B575B2D00887E7F /* Main */,
 				E7C79BDA2B575B1300887E7F /* Views */,
 				E7ADA9992B51F4280043F2CA /* Assets.xcassets */,
@@ -139,6 +147,22 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		E7C79BF62B579B7600887E7F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E7C79BF72B579BB900887E7F /* Entities+Sunlight.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E7C79BF92B579C0200887E7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7C79BFA2B579C7600887E7F /* Sunlight.skybox */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +181,7 @@
 			name = MyFirstImmersive;
 			packageProductDependencies = (
 				E7ADA9912B51F4270043F2CA /* RealityKitContent */,
+				E7C79BF02B57840B00887E7F /* WorldAssets */,
 			);
 			productName = MyFirstImmersive;
 			productReference = E7ADA98C2B51F4270043F2CA /* MyFirstImmersive.app */;
@@ -208,6 +233,9 @@
 				Base,
 			);
 			mainGroup = E7ADA9832B51F4270043F2CA;
+			packageReferences = (
+				E7C79BEF2B57840B00887E7F /* XCLocalSwiftPackageReference "Packages/WorldAssets" */,
+			);
 			productRefGroup = E7ADA98D2B51F4270043F2CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -224,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7ADA99D2B51F4280043F2CA /* Preview Assets.xcassets in Resources */,
+				E7C79BFB2B579C7700887E7F /* Sunlight.skybox in Resources */,
 				E7ADA99A2B51F4280043F2CA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +276,7 @@
 				E7C79BE12B575E7A00887E7F /* HelloWorldView.swift in Sources */,
 				E7ADA9942B51F4270043F2CA /* MyFirstImmersiveApp.swift in Sources */,
 				E7ADA9982B51F4270043F2CA /* ImmersiveView.swift in Sources */,
+				E7C79BF82B579BB900887E7F /* Entities+Sunlight.swift in Sources */,
 				E7C79BDD2B575B8800887E7F /* ImmersiveToggleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,10 +543,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		E7C79BEF2B57840B00887E7F /* XCLocalSwiftPackageReference "Packages/WorldAssets" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/WorldAssets;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		E7ADA9912B51F4270043F2CA /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
+		};
+		E7C79BF02B57840B00887E7F /* WorldAssets */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WorldAssets;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

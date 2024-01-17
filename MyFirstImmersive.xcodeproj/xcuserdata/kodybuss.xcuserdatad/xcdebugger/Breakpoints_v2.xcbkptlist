@@ -3,4 +3,207 @@
    uuid = "534D9C9E-0F13-4F10-BF10-D31D920E17A4"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1E55B92-2729-410E-A94A-7A810587C0CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyFirstImmersive/Views/ImmersiveView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E1E55B92-2729-410E-A94A-7A810587C0CC - 22136dd4ba036100"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in MyFirstImmersive.ImmersiveView.body.getter : some"
+                  moduleName = "MyFirstImmersive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kodybuss/Repos/MyFirstImmersive/MyFirstImmersive/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "2832">
+               </Location>
+               <Location
+                  uuid = "E1E55B92-2729-410E-A94A-7A810587C0CC - 801f6cc1b2f774c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in MyFirstImmersive.ImmersiveView.body.getter : some"
+                  moduleName = "MyFirstImmersive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kodybuss/Repos/MyFirstImmersive/MyFirstImmersive/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "E1E55B92-2729-410E-A94A-7A810587C0CC - b78d59b02438dd02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in MyFirstImmersive.ImmersiveView.body.getter : some"
+                  moduleName = "MyFirstImmersive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kodybuss/Repos/MyFirstImmersive/MyFirstImmersive/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "E1E55B92-2729-410E-A94A-7A810587C0CC - b78d59b02438dd02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in MyFirstImmersive.ImmersiveView.body.getter : some"
+                  moduleName = "MyFirstImmersive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kodybuss/Repos/MyFirstImmersive/MyFirstImmersive/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "E1E55B92-2729-410E-A94A-7A810587C0CC - 41c42f6212c57b1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in MyFirstImmersive.ImmersiveView.body.getter : some"
+                  moduleName = "MyFirstImmersive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kodybuss/Repos/MyFirstImmersive/MyFirstImmersive/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "2844">
+               </Location>
+               <Location
+                  uuid = "E1E55B92-2729-410E-A94A-7A810587C0CC - 1bff051c4fd6191c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in MyFirstImmersive.ImmersiveView.body.getter : some"
+                  moduleName = "MyFirstImmersive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kodybuss/Repos/MyFirstImmersive/MyFirstImmersive/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "E1E55B92-2729-410E-A94A-7A810587C0CC - 1bff051c4fd6191c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in MyFirstImmersive.ImmersiveView.body.getter : some"
+                  moduleName = "MyFirstImmersive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kodybuss/Repos/MyFirstImmersive/MyFirstImmersive/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "E1E55B92-2729-410E-A94A-7A810587C0CC - b78d59b02438dd02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in MyFirstImmersive.ImmersiveView.body.getter : some"
+                  moduleName = "MyFirstImmersive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kodybuss/Repos/MyFirstImmersive/MyFirstImmersive/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "E1E55B92-2729-410E-A94A-7A810587C0CC - 1bff051c4fd6191c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in MyFirstImmersive.ImmersiveView.body.getter : some"
+                  moduleName = "MyFirstImmersive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kodybuss/Repos/MyFirstImmersive/MyFirstImmersive/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A615FC2-941A-41E5-B65B-4844AE04391E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyFirstImmersive/Views/ImmersiveView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "8A615FC2-941A-41E5-B65B-4844AE04391E - b78d59b02438dee3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in MyFirstImmersive.ImmersiveView.body.getter : some"
+                  moduleName = "MyFirstImmersive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kodybuss/Repos/MyFirstImmersive/MyFirstImmersive/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "8A615FC2-941A-41E5-B65B-4844AE04391E - 1bff051c4fd61afd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in MyFirstImmersive.ImmersiveView.body.getter : some"
+                  moduleName = "MyFirstImmersive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kodybuss/Repos/MyFirstImmersive/MyFirstImmersive/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "216">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
