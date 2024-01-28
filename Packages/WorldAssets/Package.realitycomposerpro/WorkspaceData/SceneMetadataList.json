@@ -1,3 +1,54 @@
 {
-
+  "2E628C46-342D-4018-BBF3-64376D89471B" : {
+    "objectMetadataList" : [
+      [
+        "2E628C46-342D-4018-BBF3-64376D89471B",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2E628C46-342D-4018-BBF3-64376D89471B",
+        "Root",
+        "SpaceShip"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "6AF421D5-F098-4D35-8830-F4BB228EF79A" : {
+    "objectMetadataList" : [
+      [
+        "6AF421D5-F098-4D35-8830-F4BB228EF79A",
+        "Root",
+        "Earth",
+        "Earth"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "6AF421D5-F098-4D35-8830-F4BB228EF79A",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "6AF421D5-F098-4D35-8830-F4BB228EF79A",
+        "Root",
+        "Earth"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  }
 }

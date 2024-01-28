@@ -27,7 +27,7 @@ struct OuterSpaceView: View {
 			})
 			.padding()
 		}
-		.frame(width: 950, height: 550, alignment: .center)
+		.frame(width: 800, height: 550, alignment: .center)
 		.onChange(of: isImmersiveSpaceShown) { _, newValue in
 			handleImmersiveSpaceChange(isShown: newValue)
 		}
